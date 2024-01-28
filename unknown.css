@@ -1,0 +1,90 @@
+h1 {
+    font-size: 40px; 
+    font-family: Festive; 
+    color: var(#000000); 
+    background-color: rgb(0, 217, 255); 
+    text-align: center; 
+    text-transform: capitalize; 
+    font-weight: 400; 
+    position: relative;
+}
+
+h1:hover {
+    color: green; transform: scale(1.1);
+}
+
+body {
+    background: url(https://i.pinimg.com/originals/27/e4/16/27e4160b0e3d0b90cbcf6aee8e133951.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+strong {
+    color: white;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    border-style: solid; 
+    border-color: pink; 
+    border-width: 5px; 
+    border-radius: 5px; 
+    position: relative; 
+    left: 700px
+}
+
+.set {
+    color: aqua;
+    text-align: center;
+    background-color: green;
+
+}
+
+ul {
+    color: #0091d4;
+    position: relative;
+    size: 30px;
+}
+
+h2 {
+    color: #5acbff;
+}
+
+#a {
+    color: rgb(231, 62, 90); 
+    background-color: powderblue; 
+    font-weight: bolder;
+}
+
+.box {
+    border-style: solid; 
+    border-width: 5px; 
+    border-color: royalblue; 
+    text-align: center;
+}
+
+.box-a {
+    padding: 10px;
+    background-color: rgb(255, 131, 168);
+}
+
+.box-b {
+    background: linear-gradient(90deg , #ccffff, royalblue, #FFBBFF);
+    color: cyan;
+    margin-top: 0px;
+    margin-bottom: 5px; 
+    font-size: 50px;
+}
+
+.box-c {
+    color: rebeccapurple; 
+    background: linear-gradient(24deg ,#CCFFFF, #FFCCCC); 
+    font-size: 50px; 
+    margin-bottom: 0px;
+}
+
+[type='checkbox'] {
+    margin: 10px 0px 15px;
+}
+h4:hover {color: green;}
